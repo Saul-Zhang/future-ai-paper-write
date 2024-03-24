@@ -1,4 +1,5 @@
 :root {
-    --normal-color: #050910;
+    --text-primary-color: #050910;
+    --text-description-color: #666666;
     --primary-color:#782AFF;
 }

@@ -15,6 +15,7 @@ export function httpRequest<T = unknown>(
     const route = useRoute()
     const config = useRuntimeConfig()
     const baseURL = config.public.apiBase
+    const message = useMessage()
 
     const defaultOpts = {
         method,
@@ -22,9 +23,16 @@ export function httpRequest<T = unknown>(
         baseURL: baseURL,
         headers: {token: token.value} as any,
         body,
-        // onResponse({response}){
-        //     return Promise.resolve(response._data.data)
-        // },
+        onResponse({response}) {
+            const {success, data, msg} = response._data
+            if (!success) {
+                message.error(msg)
+                if (response._data && response._data.code) {
+                    return Promise.reject(response._data)
+                }
+            }
+            response._data = data
+        },
         onRequestError() {
             // message.error('请求出错，请重试！')
         },
