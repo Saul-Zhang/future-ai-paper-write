@@ -6,6 +6,11 @@
 
 ## 🛸 在线使用
 - [futureai.infra.thisonegpt.com](http://futureai.infra.thisonegpt.com/)
+|                                    |                                    |                                    |
+| ---------------------------------- | ---------------------------------- | ---------------------------------- |
+| ![Demo](./files/image_1.png) | ![Demo](./files/image_2.png) |  |
+| ![Demo](./files/image_3.png) |  |    |
+| ![Demo](./files/image_6.png) | ![Demo](./files/image_4.png) | ![Demo](./files/image_5.png)
 
 ## 💡 RoadMap
 `1` 基于DDD(领域驱动设计)的后端架构
