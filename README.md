@@ -6,16 +6,7 @@
 
 ## 🛸 在线使用
 - [futureai.infra.thisonegpt.com](http://futureai.infra.thisonegpt.com/)
-|                                    |                                    |                                    |
-| ---------------------------------- | ---------------------------------- | ---------------------------------- |
-| ![Demo](./files/image_1.png) | ![Demo](./files/image_2.png) |  |
-| ![Demo](./files/image_3.png) |  |    |
-| ![Demo](./files/image_6.png) | ![Demo](./files/image_4.png) | ![Demo](./files/image_5.png)
 
-|                                     |                                      |                                     |
-|-------------------------------------|--------------------------------------|-------------------------------------|
-| ![image_1.png](files%2Fimage_1.png) | ![image_2.png](files%2Fimage_2.png)  | ![image_3.png](files%2Fimage_3.png) |
-| ![image_6.png](files%2Fimage_6.png) | ![image_4.png](files%2Fimage_4.png)  | ![image_5.png](files%2Fimage_5.png) |
 
 
 
