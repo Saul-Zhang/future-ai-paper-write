@@ -15,9 +15,9 @@ services:
       - "MYSQL_ROOT_PASSWORD=FutureAI123456_"
     networks:
       - futureai
-  futureai_spring:
+  futureai:
     image: futureai/futureai_write_spring:v1.0.0
-    container_name: futureai_spring
+    container_name: futureai
     restart: always
     depends_on:
       - futureai_mysql
