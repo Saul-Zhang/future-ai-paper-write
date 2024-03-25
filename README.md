@@ -7,6 +7,10 @@
 ## 🛸 在线使用
 - [futureai.infra.thisonegpt.com](http://futureai.infra.thisonegpt.com/)
 
+|                                     |                                      |                                     |
+|-------------------------------------|--------------------------------------|-------------------------------------|
+| ![image_1.png](https://future-ai-write.oss-cn-beijing.aliyuncs.com/images/image_1.png) | ![image_2.png](https://future-ai-write.oss-cn-beijing.aliyuncs.com/images/image_2.png)  | ![image_3.png](https://future-ai-write.oss-cn-beijing.aliyuncs.com/images/image_3.png) |
+| ![image_6.png](https://future-ai-write.oss-cn-beijing.aliyuncs.com/images/image_6.png) | ![image_4.png](https://future-ai-write.oss-cn-beijing.aliyuncs.com/images/image_4.png)  | ![image_5.png](https://future-ai-write.oss-cn-beijing.aliyuncs.com/images/image_5.png) |
 
 
 
