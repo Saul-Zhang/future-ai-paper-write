@@ -1,5 +1,5 @@
 <div align="center">
- 
+
   # 神笔AI写作
   神笔AI写作助手是一个基于AI大模型的文本生成能力实现的论文写作工具，通过神笔AI写作可完成毕业论文、期刊论文、课程设计等多种格式的论文写作，同时支持生成超过11000字的超长文本，并引用真实的参考文献，从而轻松搞定论文写作！
 </div>
@@ -11,6 +11,13 @@
 | ![Demo](./files/image_1.png) | ![Demo](./files/image_2.png) |  |
 | ![Demo](./files/image_3.png) |  |    |
 | ![Demo](./files/image_6.png) | ![Demo](./files/image_4.png) | ![Demo](./files/image_5.png)
+
+|                                     |                                      |                                     |
+|-------------------------------------|--------------------------------------|-------------------------------------|
+| ![image_1.png](files%2Fimage_1.png) | ![image_2.png](files%2Fimage_2.png)  | ![image_3.png](files%2Fimage_3.png) |
+| ![image_6.png](files%2Fimage_6.png) | ![image_4.png](files%2Fimage_4.png)  | ![image_5.png](files%2Fimage_5.png) |
+
+
 
 ## 💡 RoadMap
 `1` 基于DDD(领域驱动设计)的后端架构
@@ -37,6 +44,16 @@
 项目技术栈：SpringBoot + TS + Naive UI + mysql
 
 - **⚡ 快速部署**
+  
+  - Docker部署
+  1. 下载 [docker-compose.yml](https://github.com/futureai-write/future-ai-paper-write/blob/master/docker-compose.yml)文件和[future_ai_write_init.sql](https://github.com/futureai-write/future-ai-paper-write/blob/master/future_ai_write_init.sql)
+  2. 执行以下命令：
+     ``` shell
+     docker-compose up -d
+     ```
+  3. 在浏览器输入 `http://ip:3000`即可访问
+  
+  
 
 
 ## 🏘️ 社区交流群
