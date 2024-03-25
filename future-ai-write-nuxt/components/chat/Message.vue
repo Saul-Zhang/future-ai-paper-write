@@ -137,7 +137,7 @@ const text = computed(() => {
   &.markdown-body-generate>ul:last-child li:last-child:after {
     animation: blink 1s steps(5, start) infinite;
     color: #000;
-    content: '_';
+    content: '|';
     font-weight: 700;
     margin-left: 3px;
     vertical-align: baseline;

@@ -4,14 +4,14 @@ import {PaperPlane} from '@vicons/fa'
 
 interface Props {
   configKey?: string,
-  loading: boolean
+  outlineLoading: boolean
 }
 
 const props = defineProps<Props>()
 const configList: Array<WriteConfig> = await httpGet('/write/config/list')
 
 const writeRequestForm = ref({})
-const writeRequestFormRef = ref(<FormInst>{});
+const writeRequestFormRef = ref(<FormInst>{})
 const writeRequestFormRules: FormRules = {}
 
 const writeConfigDetail: WriteConfigDetail = await httpGet('/write/config/detail', {
@@ -24,8 +24,13 @@ configInputList.forEach(input => {
   }
 })
 
+const message = useMessage()
 const emits = defineEmits(['onGenerateOutlineSubmit'])
 const onGenerateOutlineClick = (e: MouseEvent) => {
+  if (!useApiKey().hasApiKey){
+    message.error("获取Key失败，请点击右侧【Key配置】按钮配置Key")
+    return
+  }
   e.preventDefault()
   writeRequestFormRef?.value.validate((errors) => {
     if (!errors) {
@@ -49,7 +54,7 @@ const onGenerateOutlineClick = (e: MouseEvent) => {
   <div class="w-full">
     <WriteStepNo no="1" desc="输入论文题目，生成千字大纲"/>
     <div class="flex justify-center pt-7 mb-4">
-      <NSpace>
+      <NSpace justify="center">
         <div
             class="rounded-lg cursor-pointer bg-white border opacity-60 pt-1 pb-1 pl-3 pr-3"
             v-for="config in configList"

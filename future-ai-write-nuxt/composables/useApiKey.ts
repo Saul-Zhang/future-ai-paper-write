@@ -4,9 +4,14 @@ export const useApiKey = defineStore("key", {
             apiKey: ''
         }
     },
-    actions:{
-        setApiKey(apiKey:string){
+    actions: {
+        setApiKey(apiKey: string) {
             this.apiKey = apiKey
+        }
+    },
+    getters: {
+        hasApiKey: (state): boolean => {
+            return state.apiKey.length > 0
         }
     },
     persist: true

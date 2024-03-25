@@ -2,4 +2,5 @@
     --text-primary-color: #050910;
     --text-description-color: #666666;
     --primary-color:#782AFF;
+    --write-full-bg-color:linear-gradient(180deg, rgba(233,232,254,1) 0%, rgba(250,235,242,1) 40%, rgba(238,250,255,1) 80%, rgba(250,247,254,1) 100%);
 }

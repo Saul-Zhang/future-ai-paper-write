@@ -26,7 +26,7 @@ export function httpRequest<T = unknown>(
         onResponse({response}) {
             const {success, data, msg} = response._data
             if (!success) {
-                message.error(msg)
+                // message.error(msg)
                 if (response._data && response._data.code) {
                     return Promise.reject(response._data)
                 }
